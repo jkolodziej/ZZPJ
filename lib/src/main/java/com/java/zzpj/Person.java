@@ -8,8 +8,9 @@ import lombok.*;
 public class Person {
 
     String name;
+    String lastName;
 
     public void hello() {
-        System.out.println("Hello, I'm " + name);
+        System.out.println("Hello, I'm " + name + " " + lastName);
     }
 }
